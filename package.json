@@ -1,0 +1,23 @@
+{
+  "name": "lua-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -d output_docs --configure jsconf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoemods/lua-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoemods/lua-docs/issues"
+  },
+  "homepage": "https://github.com/aoemods/lua-docs#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "typescript": "^4.5.2"
+  }
+}
