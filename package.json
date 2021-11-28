@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "doc": "jsdoc -d output_docs --configure jsconf.json"
+    "doc": "jsdoc -d docs --configure jsconf.json"
   },
   "repository": {
     "type": "git",
