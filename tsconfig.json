@@ -1,9 +1,16 @@
 {
-  "include": ["source/**/*"],
-  "compilerOptions": {
-    "allowJs": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "ts_output"
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": ["esnext"],
+      "moduleResolution": "node",
+      "types": ["lua-types/5.3"],
+      "strict": true
+    },
+    "typedocOptions": {
+        "entryPoints": ["src"],
+        "entryPointStrategy" : "expand",
+        "out": "docs",
+        "name": "Age of Empires 4 Lua API",
+        "disableSources": true,
+    }
   }
-}
