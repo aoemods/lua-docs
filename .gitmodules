@@ -1,0 +1,3 @@
+[submodule "aoe4-scenario-template"]
+	path = aoe4-scenario-template
+	url = https://github.com/aoemods/aoe4-scenario-template
