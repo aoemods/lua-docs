@@ -1,11 +1,8 @@
 {
   "scripts": {
-    "prettier": "npx prettier --write src/.",
     "typedoc": "typedoc"
   },
   "devDependencies": {
-    "lua-types": "^2.11.0",
-    "prettier": "2.5.0",
     "typedoc": "^0.22.10"
   }
 }
