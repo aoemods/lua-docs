@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "typedoc": "typedoc"
+    "typedoc": "typedoc",
+    "submodule_update": "git submodule update --remote --merge"
   },
   "devDependencies": {
     "typedoc": "^0.22.10"
